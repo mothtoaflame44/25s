@@ -1,13 +1,21 @@
+
+
+html, body {
+    overflow-x: hidden;
+  }
+
+
+
 *{
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins" Arial, Helvetica, sans-serif;
 
 }
 
 .header-section{
 
-    background-image: url('https://placehold.co/1920x1080');
+    background-image: url('images/banner.webp');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -15,4 +23,222 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+
+.hero-section h1{
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: rgb(236, 228, 228);
+
+}
+.hero-section p{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.bt-custom{
+    background-color: blanchedalmond;
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    transition: background-color 0.5s ease;
+    
+    
+}
+.bt-custom:hover{
+    background-color: cadetblue;
+    color: aliceblue;
+}
+
+.features-section{
+    padding: 60px 0px;
+
+
+}
+.features-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.feature-card{
+  background-color: rgb(207, 195, 195);
+  padding:30px;
+  border: none;
+  border-radius: 15px;
+  transition: transform 0.5s ease;
+  box-shadow: 45px 30px 60px 8px  rgba(64, 52, 52, 0.5);
+  margin-bottom: 10px;
+}
+
+.feature-card:hover{
+    transform:translateX(10px) ;
+
+   
+}
+
+.feature-card img{
+    width:70px;
+    margin-bottom: 20px;
+}
+.feature-card h5{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.testimonial-section{
+    padding:60px 0px;
+    background-color: rgb(110, 105, 105);
+    text-align: center;
+
+}
+
+
+.testimonial-section h2{
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+
+.testimonial-content{
+    padding: 30px;
+    background-color: rgb(205, 207, 207);
+    margin-bottom: 10px;
+    border-radius: 15px;
+    color:rgb(14, 12, 12) ;
+    transition: background-color 0.5s ease;
+    box-shadow: 10px 30px 60px 4px rgba(19, 18, 18, 0.5);
+
+
+
+}
+
+.testimonial-content:hover{
+    transform:translateX(15px) ;
+
+   
+}
+.testimonial-content img{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+}
+
+.testimonial-content p{
+    font-size: 1.3rem;
+    font-style: italic;
+    color: white;
+
+}
+
+.testimonial-content h5{
+    margin-top: 30px;
+    font-weight: 600;
+
+}
+
+.checkout-section{
+    margin-top:30px;
+    font-weight: 600;
+}
+.checkout-section h2{
+    text-align: center;
+    font-weight: 600px;
+    margin-bottom: 30px;
+
+
+}
+
+.checkout-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(153, 155, 155);
+    border-radius: 10px;
+    box-shadow: 10px 30px 60px 4px rgba(64, 52, 52, 0.5);
+}
+
+
+.checkout-form .custom-input{
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 9px;
+}
+
+.btn-custom{
+    width: 100%;
+    background-color: brown;
+    border: none;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.footer{
+    margin-top: 60px;
+    padding: 60px 0px;
+    background-color: rgb(150, 145, 145);
+    color: aliceblue;
+    align-items: center; 
+}
+
+/* .footer-content{
+  
+    /* display: flex;
+    justify-content: center;
+    align-items: center;  /* */
+   /* margin-left: 520px; */
+
+ /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+/* } */
+
+
+
+.custom-logo{
+   
+    margin-bottom: 15px;
+    margin:  auto;
+   
+}
+/* .custom-logo img{
+ border-radius:60px;
+} */
+.social-icons{
+    padding: 10px;
+   
+}
+
+
+.social-icons .fb-custom{
+    color: black;
+}
+
+.social-icons .tele-custom{
+    color: black;
+}
+.social-icons .yt-custom{
+    color: black;
+}
+
+.social-icons .insta-custom{
+    color: black;
+}
+.social-icons .linked-custom{
+    color: black;
+}
+
+.social-icons a{
+    font-size: 1.5rem;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+ 
+}
+.social-icons a:hover{
+    color: rgb(255, 255, 255);
 }
